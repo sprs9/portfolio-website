@@ -195,12 +195,31 @@ img {
 }
 
 .home__data {
-  align-self: center;
+  align-self: left;
 }
 
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  width: 15ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  font-family: monospace;
+
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
 
 .home__title-color {
