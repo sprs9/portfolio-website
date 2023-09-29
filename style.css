@@ -252,6 +252,20 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
+  animation: sparsh1;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+}
+@keyframes sparsh1 {
+  from{
+    transform: translateY(100%);
+    opacity: 0;
+
+  }
+  to{
+    transform: translateY(75%);
+    opacity: 1;
+  }
 }
 
 .home2__img {
