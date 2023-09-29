@@ -254,7 +254,7 @@ img {
   width: 260px;
   animation: sparsh1;
   animation-duration: 2s;
-  animation-iteration-count: 3;
+  animation-iteration-count: 1;
 }
 @keyframes sparsh1 {
   from{
@@ -309,7 +309,7 @@ img {
   margin-bottom: var(--mb-2);
   animation: sparsh1;
   animation-duration: 3s;
-  animation-iteration-count: 3;
+  animation-iteration-count: 1;
 }
 @keyframes sparsh1 {
   from{
@@ -325,7 +325,7 @@ img {
 .about__text{
   animation: sparsh1;
   animation-duration: 3s;
-  animation-iteration-count: 3;
+  animation-iteration-count:1;
 }
 @keyframes sparsh1 {
   from{
@@ -348,7 +348,7 @@ img {
   border-radius: .5rem;
   animation: sparsh1;
   animation-duration: 3s;
-  animation-iteration-count: 3;
+  animation-iteration-count: 1;
 }
 @keyframes sparsh1 {
   from{
